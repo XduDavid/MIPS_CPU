@@ -1,0 +1,21 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/wg/vivado_prj/CPU/lab3/lab_3.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/lab_3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1608538563,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/Alu_control.v,,blk_mem_gen_0,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/lab_3.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,1608537277,verilog,,/home/wg/vivado_prj/CPU/lab3/lab_3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,inst_mem,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/Alu_control.v,1608216099,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/Controller.v,,Alu_control,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/Controller.v,1608548416,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/adder.v,,Controller,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/adder.v,1608535900,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/alu.v,,adder,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/alu.v,1608535705,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/datapath.v,,alu,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/datapath.v,1608553400,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/flopr.v,,datapath,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/flopr.v,1608553892,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/main_decoder.v,,flopr,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/main_decoder.v,1608554275,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/mips.v,,main_decoder,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/mips.v,1608549606,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/mux2.v,,mips,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/mux2.v,1608536369,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/regfile.v,,mux2,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/regfile.v,1608552511,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/signext.v,,regfile,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/signext.v,1608536906,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/sl2.v,,signext,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/sl2.v,1608537005,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/top.v,,sl2,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/top.v,1608552184,verilog,,/home/wg/vivado_prj/CPU/lab3/rtl/top_tb.v,,top,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/top_tb.v,1608550640,verilog,,,,top_tb,,,,,,,,

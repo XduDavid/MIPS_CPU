@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec 18 14:59:17 2020
+# Process ID: 8891
+# Current directory: /home/wg/vivado_prj/CPU/lab2/lab2.runs/synth_1
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/wg/vivado_prj/CPU/lab2/lab2.runs/synth_1/top.vds
+# Journal file: /home/wg/vivado_prj/CPU/lab2/lab2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

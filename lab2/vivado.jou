@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec 18 14:48:59 2020
+# Process ID: 2829
+# Current directory: /home/wg/vivado_prj/CPU/lab2
+# Command line: vivado
+# Log file: /home/wg/vivado_prj/CPU/lab2/vivado.log
+# Journal file: /home/wg/vivado_prj/CPU/lab2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/wg/vivado_prj/CPU/lab2/lab2.xpr
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse /home/wg/vivado_prj/CPU/lab2/rtl/DaVinci_FPGA_IO.xdc
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/wg/vivado_prj/CPU/lab2/lab2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/wg/vivado_prj/CPU/lab2/lab2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw

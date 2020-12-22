@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/wg/vivado_prj/CPU/lab3/rtl/Controller.v,1608548416,verilog,,,,Controller,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/adder.v,1608535900,verilog,,,,adder,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/alu.v,1608535705,verilog,,,,alu,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/datapath.v,1608553400,verilog,,,,datapath,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/flopr.v,1608553892,verilog,,,,flopr,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/main_decoder.v,1608554275,verilog,,,,main_decoder,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/mips.v,1608549606,verilog,,,,mips,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/mux2.v,1608536369,verilog,,,,mux2,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/regfile.v,1608552511,verilog,,,,regfile,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/signext.v,1608536906,verilog,,,,signext,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/sl2.v,1608537005,verilog,,,,sl2,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/top.v,1608552184,verilog,,,,top,,,,,,,,
+/home/wg/vivado_prj/CPU/lab3/rtl/top_tb.v,1608550640,verilog,,,,top_tb,,,,,,,,
