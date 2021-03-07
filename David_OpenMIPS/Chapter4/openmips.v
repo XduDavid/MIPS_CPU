@@ -55,12 +55,12 @@ module openmips(
     );
     
     //IF/IDÄ£¿éÀı»¯
-    if_id(
+    if_id if_id0(
     .rst(rst),    .clk(clk),    .if_inst(rom_data_i),    .id_inst(id_inst_i)
     );
 
     //ÒëÂë½×¶ÎIDÄ£¿éÀı»¯
-    id(
+    id id0(
     .rst(rst),    .inst_i(id_inst_i),
 
     .reg1_data_i(reg1_data),    .reg2_data_i(reg2_data),
